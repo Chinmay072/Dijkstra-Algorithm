@@ -306,7 +306,7 @@ with tabs[1]:
     
     col1, col2 = st.columns([1, 2])
     with col1:
-        st.image("dijkstra.webp", caption="Edsger W. Dijkstra", use_column_width=True)
+       #st.image("dijkstra.webp", caption="Edsger W. Dijkstra", use_column_width=True)
         
         st.markdown("""
         <div class="side-info">
