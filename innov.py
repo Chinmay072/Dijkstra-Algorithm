@@ -306,7 +306,7 @@ with tabs[1]:
     
     col1, col2 = st.columns([1, 2])
     with col1:
-       #st.image("dijkstra.webp", caption="Edsger W. Dijkstra", use_column_width=True)
+        st.image("dijkstra.webp", caption="Edsger W. Dijkstra", use_column_width=True)
         
         st.markdown("""
         <div class="side-info">
@@ -322,28 +322,36 @@ with tabs[1]:
     
     with col2:
         st.markdown("""
-        <div class="info-box">
+        <div class="side-info">
             <h4>Overview</h4>
             <p>Dijkstra's algorithm is a fundamental graph algorithm that finds the shortest 
             paths between nodes in a graph.</p>
-            
+            <div>
             <h4>Key Features</h4>
-            • Optimal pathfinding<br>
-            • Efficient computation<br>
-            • Versatile applications<br>
-            • Industry standard<br>
-            
+            🎯 Optimal pathfinding<br>
+            ⚡ Efficient computation<br>
+            🔄 Versatile applications<br>
+            🏆 Industry standard<br>
+            </div>
+            <div>        
             <h4>Real-world Applications</h4>
-            • Network routing protocols<br>
-            • GPS and navigation systems<br>
-            • Social networks<br>
-            • Video game pathfinding<br>
-            • Supply chain optimization
+            🌐 Network routing protocols<br>
+            📍 GPS and navigation systems<br>
+            👥 Social networks<br>
+            🎮 Video game pathfinding<br>
+            📦 Supply chain optimization
+            </div>
         </div>
         
         <div class="side-info">
             <h4>How it Works</h4>
-            <p>The algorithm maintains a set of unvisited nodes and continuously updates 
-            the shortest known distance to each node until it finds the optimal path.</p>
+                1️⃣ Initialize distances to infinity<br>
+                2️⃣ Select node with minimum distance<br>
+                3️⃣ Update neighboring distances<br>
+                4️⃣ Repeat until destination reached<br>
+                5️⃣ Reconstruct shortest path        
         </div>
         """, unsafe_allow_html=True)
+        # how it works
+        # <p>The algorithm maintains a set of unvisited nodes and continuously updates 
+        #     the shortest known distance to each node until it finds the optimal path.</p>
