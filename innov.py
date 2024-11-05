@@ -301,11 +301,11 @@ with tabs[0]:
             st.info("ℹ️ No saved graphs available")
 
 with tabs[1]:
-   #st.markdown('<h2 class="main-header">About Dijkstra\'s Algorithm</h2>', unsafe_allow_html=True)
+    st.markdown('<h2 class="main-header">About Dijkstra\'s Algorithm</h2>', unsafe_allow_html=True)
     
     col1, col2 = st.columns([1, 2])
     with col1:
-        st.image("dijkstra.webp", caption="Edsger W. Dijkstra", use_column_width=True)
+       #st.image("dijkstra.webp", caption="Edsger W. Dijkstra", use_column_width=True)
         
         st.markdown("""
         <div class="side-info">
